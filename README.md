@@ -24,7 +24,7 @@ npm start
 
 #### School details
 ![2](https://user-images.githubusercontent.com/33250282/104834215-04a9c000-58c4-11eb-96a5-8774ef02d435.JPG)
-- all the details of a school will be dispayed in this table.
+- all the details of a school will be displayed in this table.
 
 #### Search Panel
 ![1](https://user-images.githubusercontent.com/33250282/104834067-19d21f00-58c3-11eb-94ba-b0b1da0e3992.JPG)
