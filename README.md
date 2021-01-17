@@ -33,7 +33,7 @@ npm start
 - if you want to add a new school to the system press `Add new School` button.
 
 #### Create School
-![3](https://user-images.githubusercontent.com/33250282/104834252-40448a00-58c4-11eb-98df-d8a556af287b.JPG)
+![Capture](https://user-images.githubusercontent.com/33250282/104838274-e94cae00-58df-11eb-948d-9244c4e45e6b.JPG)
 - add details of the new school and press `SUBMIT` button.
 - If you want to show the search panel again, press `HIDE` button
 
