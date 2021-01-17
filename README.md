@@ -28,7 +28,7 @@ npm start
 
 #### Search Panel
 ![1](https://user-images.githubusercontent.com/33250282/104834067-19d21f00-58c3-11eb-94ba-b0b1da0e3992.JPG)
-- you can search by school name, suburb, state, state and postal code.
+- you can search by school name, suburb, state, street and postal code.
 - press `submit` button to show results based on searching texts.
 - if you want to add a new school to the system press `Add new School` button.
 
