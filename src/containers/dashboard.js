@@ -56,14 +56,14 @@ class DashBoard extends Component {
       if (value) {
         if (element === "schoolName")
           filteredSchools = filteredSchools.filter((school) => {
-            if (school[element].toUpperCase() === value.toUpperCase()) {
+            if (school[element].toUpperCase() === value.toUpperCase().trim()) {
               return school;
             }
             return null;
           });
         else {
           filteredSchools = filteredSchools.filter((school) => {
-            if (school.address[element].toUpperCase() === value.toUpperCase()) {
+            if (school.address[element].toString().toUpperCase() === value.toUpperCase().trim()) {
               return school;
             }
             return null;

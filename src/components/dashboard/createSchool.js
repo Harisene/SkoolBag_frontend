@@ -12,7 +12,7 @@ class CreateSchool extends Component {
       street: "",
       suburb: "",
       state: "",
-      postalCode: "",
+      postalCode: 0,
     },
     errors: {
       schoolName: "",
@@ -32,7 +32,7 @@ class CreateSchool extends Component {
     street: Joi.string().required().label("Street"),
     suburb: Joi.string().required().label("Suburb"),
     state: Joi.string().required().label("State"),
-    postalCode: Joi.string().required().label("Postal Code"),
+    postalCode: Joi.number().min(0).required().label("Postal Code"),
   };
 
   validate = () => {
@@ -78,7 +78,7 @@ class CreateSchool extends Component {
         street,
         suburb,
         state,
-        postalCode,
+        postalCode: parseInt(postalCode),
       };
       //API call
       axios
@@ -197,6 +197,7 @@ class CreateSchool extends Component {
             <FormInput
               name="postalCode"
               label="Postal Code"
+              type="number"
               value={postalCode}
               onChange={this.handleChange}
               error={errors.postalCode}
