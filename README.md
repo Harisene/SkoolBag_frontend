@@ -6,6 +6,7 @@
 - prop-types
 
 ### **How to run**
+- use the hosted SkoolBag Web App from https://skoolbag-frontend.herokuapp.com/
 - clone this github repo
 - install npm packages
 ```
