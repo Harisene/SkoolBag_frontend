@@ -1,1 +1,1 @@
-export const URL = " http://192.168.1.2:4000/api/v1/schools" 
+export const URL = " https://skoolbag-backend.herokuapp.com/api/v1/schools" 
